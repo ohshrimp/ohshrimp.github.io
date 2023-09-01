@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* ------------ */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(45deg, hsl(347, 83%, 60%) 0%, hsl(351, 84%, 60%) 4%, hsl(354, 85%, 60%) 8%, hsl(358, 86%, 61%) 12%, hsl(2, 87%, 61%) 17%, hsl(5, 88%, 61%) 23%, hsl(9, 89%, 62%) 30%, hsl(12, 90%, 62%) 37%, hsl(16, 91%, 63%) 44%, hsl(19, 92%, 63%) 52%, hsl(23, 93%, 63%) 60%, hsl(26, 94%, 64%) 68%, hsl(30, 95%, 64%) 76%, hsl(33, 96%, 65%) 83%, hsl(37, 98%, 65%) 90%, hsl(40, 99%, 65%) 96%, hsl(44, 100%, 66%) 100%);
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: #131b22;
+}
+
+p {
+  padding-bottom: 1.25em;
+  color: #002a32;
+}
+
+.card {
+  background: linear-gradient(0deg, hsl(31, 51%, 90%) 0%, hsl(31, 51%, 90%) 11%, hsl(32, 51%, 90%) 22%, hsl(32, 52%, 91%) 33%, hsl(33, 52%, 91%) 44%, hsl(33, 52%, 92%) 56%, hsl(33, 53%, 92%) 67%, hsl(34, 53%, 92%) 78%, hsl(34, 54%, 93%) 89%, hsl(35, 54%, 93%) 100%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #131b22;
+  width: 80%;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  padding: 40px;
+  border: 3px solid #131b22;
+}
+
+/*# sourceMappingURL=main.css.map */
