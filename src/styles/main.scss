@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+$bg-gradient: linear-gradient(
+  45deg,
+  hsl(347deg 83% 60%) 0%,
+  hsl(351deg 84% 60%) 4%,
+  hsl(354deg 85% 60%) 8%,
+  hsl(358deg 86% 61%) 12%,
+  hsl(2deg 87% 61%) 17%,
+  hsl(5deg 88% 61%) 23%,
+  hsl(9deg 89% 62%) 30%,
+  hsl(12deg 90% 62%) 37%,
+  hsl(16deg 91% 63%) 44%,
+  hsl(19deg 92% 63%) 52%,
+  hsl(23deg 93% 63%) 60%,
+  hsl(26deg 94% 64%) 68%,
+  hsl(30deg 95% 64%) 76%,
+  hsl(33deg 96% 65%) 83%,
+  hsl(37deg 98% 65%) 90%,
+  hsl(40deg 99% 65%) 96%,
+  hsl(44deg 100% 66%) 100%
+);
+
+$white-gradient: linear-gradient(
+    0deg,
+    hsl(31deg 51% 90%) 0%,
+    hsl(31deg 51% 90%) 11%,
+    hsl(32deg 51% 90%) 22%,
+    hsl(32deg 52% 91%) 33%,
+    hsl(33deg 52% 91%) 44%,
+    hsl(33deg 52% 92%) 56%,
+    hsl(33deg 53% 92%) 67%,
+    hsl(34deg 53% 92%) 78%,
+    hsl(34deg 54% 93%) 89%,
+    hsl(35deg 54% 93%) 100%
+  );
+
+$black: #131b22;
+$gray: #002a32;
+$white: #f7efe4;
+$off-white: #f2e5d7;
+$pink: #f5758e;
+$dark-pink: #ee4266;
+$cyan: #1bd6d2;
+$dark-cyan: #1bd6d2;
+$yellow: #ffd050;
+$gold: #ffb627;
+
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /* ------------ */
+
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    background: $bg-gradient;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1 {
+    color:$black;
+  }
+
+  p {
+    padding-bottom:1.25em;
+    color: $gray;
+  }
+
+  .card {
+    background: $white-gradient;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px $black;
+    width: 80%;
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    padding: 40px;
+    border: 3px solid $black;
+  }
